@@ -2,7 +2,11 @@ Working the example in https://codegangsta.gitbooks.io/building-web-apps-with-go
 
 The code is using out dated libraries and commands
 
-Problems
+## Helpful Links
+- Heroku Dev Center - Getting Started in Heroku with Go(https://devcenter.heroku.com/articles/getting-started-with-go)
+
+
+## Problems
 - go mod
 -- when I tried to initialize a module, I kept getting an error. Issuing the following helped. 
 --- export GO111MODULE=on
@@ -12,3 +16,5 @@ Problems
 -- Got an error about not being able to load the package
 --- error message: build markdownapp: cannot load gopkg.in/russross/blackfriday.v2: cannot find module providing package gopkg.in/russross/blackfriday.v2
 --- resolution: go mod edit -replace=gopkg.in/russross/blackfriday.v2@v2.0.1=github.com/russross/blackfriday/v2@v2.0.1
+
+
