@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/russross/blackfriday"
+	"gopkg.in/russross/blackfriday.v2"
 )
 
 func main() {
@@ -20,6 +20,6 @@ func main() {
 
 // GenerateMarkdown creates the markdown
 func GenerateMarkdown(rw http.ResponseWriter, r *http.Request) {
-	markdown := blackfriday.MarkdownCommon([]byte(r.FormValue("body")))
+	markdown := blackfriday.Run([]byte(r.FormValue("body")))
 	rw.Write(markdown)
 }
