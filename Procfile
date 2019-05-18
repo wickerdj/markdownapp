@@ -1,1 +1,1 @@
-web markdownapp
+web: markdownapp
