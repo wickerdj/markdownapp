@@ -1,1 +1,1 @@
-web: markdownapp
+web: bin/markdownapp
