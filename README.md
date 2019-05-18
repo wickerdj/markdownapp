@@ -3,7 +3,7 @@ Working the example in https://codegangsta.gitbooks.io/building-web-apps-with-go
 The code is using out dated libraries and commands
 
 ## Helpful Links
-- Heroku Dev Center - Getting Started in Heroku with Go(https://devcenter.heroku.com/articles/getting-started-with-go)
+- Heroku Dev Center - [Getting Started in Heroku with Go](https://devcenter.heroku.com/articles/getting-started-with-go)
 
 
 ## Problems
