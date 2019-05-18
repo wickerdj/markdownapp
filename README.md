@@ -8,8 +8,8 @@ The code is using out dated libraries and commands
 
 ## Problems
 - go mod
-  when I tried to initialize a module, I kept getting an error. Issuing the following helped. 
-    export GO111MODULE=on
+  - when I tried to initialize a module, I kept getting an error. Issuing the following helped. 
+    - export GO111MODULE=on
 - blackfriday library
   There is a new version of the library out. 
     changed the code from using .MarkdownCommon (v1) to .Run (v2)
