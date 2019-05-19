@@ -22,7 +22,7 @@ func main() {
 	r.GET("/posts", PostsIndexHandler)
 	r.POST("/posts", PostsCreateHandler)
 
-	http.ListenAndServe(":"+port, nil)
+	http.ListenAndServe(":"+port, r)
 }
 
 // GenerateMarkdown creates the markdown
